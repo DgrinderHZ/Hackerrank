@@ -1,0 +1,6 @@
+n = int(input())
+m = int(input())
+ans = divmod(n, m)
+print(ans[0])
+print(ans[1])
+print(ans)
