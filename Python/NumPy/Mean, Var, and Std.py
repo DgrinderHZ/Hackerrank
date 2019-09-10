@@ -1,6 +1,6 @@
 import numpy as np
 np.set_printoptions(sign=' ') # for spacing (to pass the test)
-
+np.set_printoptions(legacy='1.13')
 n, m = map(int, input().split())
 mat = []
 for _ in range(n):
