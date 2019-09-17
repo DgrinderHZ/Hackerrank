@@ -1,0 +1,5 @@
+import numpy as np
+
+tup = tuple(map(int, input().split()))
+print(np.zeros(tup, dtype= np.int))
+print(np.ones(tup, dtype= np.int))
